@@ -1,69 +1,74 @@
-# Byte-compiled / optimized / DLL files
+# -------------------------
+# Python
+# -------------------------
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
+*.pyo
+*.pyd
 *.so
+*.log
 
-# Distribution / packaging
-.Python
+# Virtual environment
+.env/
+.venv/
 env/
 venv/
-.pa2env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-pip-wheel-metadata/
 
-# PyInstaller
-*.manifest
-*.spec
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# Cache
+.cache/
+*.cache
+*.tmp
+
+# Pytest / coverage
 .pytest_cache/
+coverage.xml
+htmlcov/
+.coverage*
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# -------------------------
+# MLflow
+# -------------------------
+# Ignore all MLflow runs
+mlruns/
 
-# VS Code / IDE files
-.vscode/
-.idea/
-
-# MacOS
+# -------------------------
+# OS / IDE Files
+# -------------------------
+# macOS
 .DS_Store
 
-# Plots / outputs
-plots/*.png
+# Windows
+Thumbs.db
 
-# Ignore database files (if any)
-*.db
-*.sqlite3
+# VSCode
+.vscode/
+*.code-workspace
 
-# Environment variables
-.env
+# JetBrains (PyCharm)
+.idea/
+
+# -------------------------
+# Project-specific
+# -------------------------
+# Model artifacts
+*.joblib
+*.pkl
+*.h5
+models/
+artifacts/
+
+# Logs
+logs/
+*.out
+*.err
+
+# Environment files created by tools
+*.env

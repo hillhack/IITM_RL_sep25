@@ -1,0 +1,14 @@
+artifact_uri: /home/jyoti/Documents/iitm/RL/IITM_RL_sep25/ProgAess2/mlruns/183274130962215754/a44506bd39124e2fafc2b2d3978263f3/artifacts
+end_time: 1763098055222
+entry_point_name: ''
+experiment_id: '183274130962215754'
+lifecycle_stage: active
+run_id: a44506bd39124e2fafc2b2d3978263f3
+run_name: FourRoom_QL_2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763096451650
+status: 3
+tags: []
+user_id: jyoti

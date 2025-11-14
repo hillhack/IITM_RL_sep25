@@ -1,0 +1,14 @@
+artifact_uri: /home/jyoti/Documents/iitm/RL/IITM_RL_sep25/ProgAess2/mlruns/183274130962215754/5880b387c98b4af4ae1b9b9f37a096dd/artifacts
+end_time: 1763096198612
+entry_point_name: ''
+experiment_id: '183274130962215754'
+lifecycle_stage: active
+run_id: 5880b387c98b4af4ae1b9b9f37a096dd
+run_name: 10x10_SARSA_7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763096126957
+status: 3
+tags: []
+user_id: jyoti
