@@ -34,8 +34,6 @@ This project implements and compares **Dueling Deep Q-Networks (Dueling-DQN)** w
 ├── reinforce/
 │   ├── model.py         # REINFORCEAgent (policy/value nets, baseline TD(0))
 │   └── train.py         # train_reinforce_agent (MC episodes)
-└── memory-bank/         # Cline memory (projectbrief.md)
-    └── projectbrief.md
 ```
 
 ## Installation
